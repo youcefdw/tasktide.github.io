@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskTide</title>
+    <script src="https://kit.fontawesome.com/e97423d171.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        .paragraph{
+            display: block;
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 300ms ease-out;
+            
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="p-6 pl-20 pr-20 max-md:pl-12 max-md:pr-12 max-sm:pl-6 sm:pr-6">
+        <nav class=" flex justify-between items-center drop-shadow-2xl ">
+            <a href="home.html" class="drop-shadow-2xl max-sm:text-2xl text-4xl font-bold bg-gradient-to-r from-sky-400 to-sky-950 text-transparent bg-clip-text">TaskTide</a>
+            <div class="flex gap-12  max-md:hidden">
+                <a href="home.html" class="drop-shadow-2xl hover:text-sky-400 transition duration-300">Home</a>
+                <a href="#Features" class="drop-shadow-2xl hover:text-sky-400 transition duration-300">Features</a>
+                <a href="pricing.html" class="drop-shadow-2xl hover:text-sky-400 transition duration-300">Pricing</a>
+                <a href="#faq" class="drop-shadow-2xl hover:text-sky-400 transition duration-300">FAQ</a>
+            </div>
+            <button class="bg-lime-300 cursor-pointer transition duration-300 hover:scale-110 font-semibold max-sm:pl-2 max-sm:pr-2 p-2 pl-4 pr-4 rounded-full "><a href="pricing.html">Join Us - It's Free</a></button>
+        </nav>
+        <div class="mt-28 flex justify-between mb-12 items-center" data-aos="fade-down"
+     data-aos-duration="2000">
+            <div class="max-lg:text-center max-lg:flex max-lg:mx-auto max-lg:flex-col">
+                <p class="font-semibold text-gray-700 mb-8 drop-shadow-2xl max-xl:text-sm  max-sm:text-xs">Hi Freelancer 👋</p>
+                <h1 class="text-5xl/snug font-bold mb-8 drop-shadow-2xl max-xl:text-4xl max-sm:text-3xl">Boost Your Productivity By <span class="bg-gradient-to-r from-sky-400 to-sky-950 text-transparent bg-clip-text">40%</span><br> With AI For <span class="bg-gradient-to-r from-lime-300 to-lime-800 text-transparent bg-clip-text">FREE</span></h1>
+                <p class="text-base text-gray-700 mb-8 drop-shadow-2xl max-xl:text-sm max-sm:text-xs">Stop wasting time | No burnout. TaskTide solves this by offering a unified workspace that<br> organizes, automates, and simplifies project management for Freelancers and Stratups.</p>
+                <button class="bg-lime-300  cursor-pointer mb-4 transition duration-300  hover:scale-110 font-semibold p-2 pl-4 pr-4 rounded-full drop-shadow-2xl"><a href="pricing.html">Join Us - It's Free</a></button>
+                <p class="text-sm text-gray-700 font-bold max-sm:text-xs">Used by 2,000+ early adopters</p>
+            </div>
+            <img src="img/4942221.png" alt="" class="w-1/3 mr-14 max-lg:hidden">
+        </div>
+    </div>
+    <div  class="border-t-4 border-t-gray-700 border-b-gray-700 border-b-4 flex justify-around pt-10 pb-10 ">
+        <div data-aos="fade-down"
+     data-aos-duration="2000" class="flex flex-col items-center border-dotted border-r-gray-700 border-r-4">
+            <img src="img/join.png" class="w-1/5" alt="">
+            <h1 class="text-4xl font-bold text-sky-400 max-sm:text-2xl max-sm:m-2 m-5">2,000+</h1>
+            <p class=" font-semibold text-center max-sm:text-xs">Used by 2,000+ early adopters</p>
+        </div>
+        <div data-aos="fade-down"
+     data-aos-duration="2000" class="flex  flex-col items-center border-dotted border-r-gray-700 border-r-4">
+            <img src="img/stars.png"  class="w-1/5" alt="">
+            <h1 class="text-4xl font-bold text-sky-400 max-sm:text-2xl max-sm:m-2 m-5">96%</h1>
+            <p class=" font-semibold text-center max-sm:text-xs">96% satisfaction rate in closed beta</p>
+        </div>
+        <div data-aos="fade-down"
+     data-aos-duration="2000"class="flex flex-col items-center">
+            <img src="img/badge.png" class="w-1/5" alt="">
+            <h1 class="text-4xl font-bold bg-gradient-to-r text-sky-400 max-sm:text-2xl max-sm:m-2 m-5">Top 10</h1>
+            <p class=" font-semibold text-center max-sm:text-xs">Featured in Product Hunt’s <br>Top 10 Productivity Tools</p>
+        </div>
+    </div>
+    <div>
+        <div class="flex flex-col items-center p-32 max-lg:p-24 max-md:p-20 max-sm:p-16 border-b-4 border-gray-700"data-aos="fade-down"
+     data-aos-duration="2000">
+            <h1 class="text-5xl/snug space font-bold mb-8 drop-shadow-2xl text-center max-md:text-4xl max-sm:text-3xl">Stop wasting time using multiple Tools<br> and use <span class="bg-gradient-to-r from-sky-400 to-sky-950 text-transparent bg-clip-text">TaskTide</span> instead <br>All-in-one Tool</h1>
+            <p class="text-gray-700 mb-8 drop-shadow-2xl text-center max-md:text-sm max-sm:text-xs">if you’re using multiple tools for your project, you’re wasting a lot of time.<br>
+<span class="bg-gradient-to-r from-sky-400 to-sky-950 text-transparent bg-clip-text max-md:text-sm max-sm:text-xs">TaskTide</span> offers workspace that organizes and simplifies your project in only one super tool.</p>
+            <button class="bg-lime-300 cursor-pointer z-50 m-auto transition duration-300 hover:scale-110 font-semibold p-2 pl-4 pr-4 rounded-full drop-shadow-2xl"><a href="pricing.html">Join Us - It's Free</a></button>
+            <div class="absolute">
+                <img src="img/flash_4836794.png" class="w-28 relative  left-150 -z-10 max-xl:hidden" alt="">
+                <img src="img/flash_4836794.png" class="w-28 relative bottom-24 -z-10 right-150 max-xl:hidden" alt="">
+                <img src="img/flash_4836794.png" class="w-28 relative  -z-10 left-100 max-xl:top-32 max-lg:hidden" alt="">
+                <img src="img/flash_4836794.png" class="w-28 relative bottom-24 -z-10 right-100 max-xl:top-24 max-lg:hidden" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="p-32 border-b-gray-700 border-b-4 max-sm:px-4">
+        <div class="flex items-center justify-between gap-32  flex-row-reverse">
+            <div data-aos="fade-left"
+     data-aos-duration="3000"  class="">
+                <h1 class="text-4xl/snug  font-bold max-sm:text-center mb-8 drop-shadow-2xl max-md:text-3xl">Save up to 8 hours/week<br> by avoiding tool-switching</h1>
+                <button class="bg-lime-300 max-sm:block max-sm:mx-auto self-center max-sm:mb-28 cursor-pointer mb-4 transition duration-300 hover:scale-110 font-semibold p-2 pl-4 pr-4 rounded-full drop-shadow-2xl text-center"><a href="pricing.html" class="text-center mx-auto">Join Us - It's Free</a></button>
+            </div>
+            <img data-aos="fade-right"
+     data-aos-duration="3000"  src="img/96d9624a-3896-4dd6-b97f-c5e0d778c69b-Photoroom.png" alt="" class="w-1/2 max-sm:hidden">
+        </div>
+        <div class="flex items-center justify-between gap-64 mb-12">
+            <div data-aos="fade-right"
+     data-aos-duration="3000"  class=" ">
+                <h1 class="text-4xl/snug max-sm:text-center font-bold mb-8 drop-shadow-2xl max-md:text-3xl">More focus, less cognitive overload</h1>
+                <button class="bg-lime-300 max-sm:block max-sm:mx-auto max-sm:mb-28 cursor-pointer mb-4 transition duration-300 hover:scale-110 font-semibold p-2 pl-4 pr-4 rounded-full drop-shadow-2xl"><a href="pricing.html">Join Us - It's Free</a></button>
+            </div>
+            <img data-aos="fade-left"
+     data-aos-duration="3000" src="img/5143071-Photoroom.png" alt="" class="w-1/2 max-sm:hidden">
+        </div>
+        <div class="flex items-center justify-between gap-64  flex-row-reverse">
+            <div data-aos="fade-left"
+     data-aos-duration="2000" class=" ">
+                <h1 class="text-4xl/snug max-sm:text-center font-bold mb-8 drop-shadow-2xl max-md:text-3xl">Look professional with automated client reports</h1>
+                <button class="bg-lime-300 max-sm:block max-sm:mx-auto cursor-pointer mb-4 transition duration-300 hover:scale-110 font-semibold p-2 pl-4 pr-4 rounded-full drop-shadow-2xl"><a href="pricing.html">Join Us - It's Free</a></button>
+            </div>
+            <img data-aos="fade-right"
+     data-aos-duration="3000" src="img/Stylized Checklist Icon-Photoroom.png" alt="" class="w-1/2 max-sm:hidden">
+        </div>
+    </div>
+    <div class="p-32 max-xl:px-16 max-3xl:px-0 flex flex-col items-center border-b-4 border-b-gray-700"data-aos="fade-down"
+     data-aos-duration="2000">
+        <h1 class="text-5xl/snug  space font-bold mb-8 drop-shadow-2xl text-center" id="Features">Why Us?</h1>
+        <div class="grid grid-cols-3 grid-rows-2 gap-16 mt-32 max-md:grid-cols-1">
+            <div class="border-2 max-md:w-72 max-sm:w-60 max-sm:h-60 max-md:h-72 rounded-4xl  border-gray-700 flex max-xl:w-72 max-lg:w-56 max-lg:h-56 w-90 items-center max-xl:h-72 h-90  justify-center flex-col">
+                <img src="img/dashboard.png" class="w-1/5" alt="">
+                <h1 class="text-4xl m-5 font-bold max-md:text-3xl text-center max-lg:text-2xl text-sky-400 max-xl:text-3xl">All-in-one Dashboard</h1>
+            </div>
+            <div class="border-2 max-md:w-72 max-sm:w-60 max-sm:h-60 max-md:h-72 rounded-4xl max-lg:w-56 max-lg:h-56  border-gray-700 flex items-center max-xl:w-72 
+max-xl:h-72 flex-col w-90 
+h-90  justify-center">
+                <img src="img/clipboard.png" class="w-1/5" alt="">
+                <h1 class="text-4xl m-5 max-md:text-3xl max-sm:text-2xl font-bold text-center  max-lg:text-2xl max-xl:text-3xl text-sky-400">Smart Task Suggestions</h1>
+            </div>
+            <div class="border-2 max-md:w-72 max-sm:w-60 max-sm:h-60 max-md:h-72 rounded-4xl max-lg:w-56 max-lg:h-56 border-gray-700 flex items-center flex-col w-90 max-xl:w-72 
+max-xl:h-72 
+h-90  justify-center">
+                <img src="img/bell.png" class="w-1/5" alt="">
+                <h1 class="text-4xl m-5 max-md:text-3xl max-sm:text-2xl max-xl:text-3xl  max-lg:text-2xl font-bold text-center text-sky-400">Smart Reminders</h1>
+            </div>
+            <div class="border-2 max-md:w-72 max-sm:w-60 max-sm:h-60 max-md:h-72 rounded-4xl max-lg:w-56 max-lg:h-56 border-gray-700 flex items-center flex-col w-90  max-xl:w-72 
+max-xl:h-72
+h-90  justify-center">
+                <img src="img/report.png" class="w-1/5" alt="">
+                <h1 class="text-4xl m-5 max-md:text-3xl max-sm:text-2xl max-xl:text-3xl  max-lg:text-2xl font-bold text-center text-sky-400">Productivity Reports Weekly</h1>
+            </div>
+            <div class="border-2 max-md:w-72 max-sm:w-60 max-sm:h-60 max-md:h-72 rounded-4xl max-lg:w-56 max-lg:h-56 border-gray-700 flex items-center flex-col w-90 max-xl:w-72 
+h-90 max-xl:h-72  justify-center">
+                <img src="img/link.png" class="w-1/5" alt="">
+                <h1 class="text-4xl m-5 max-md:text-3xl max-sm:text-2xl max-xl:text-3xl max-lg:text-2xl font-bold text-center text-sky-400">Sync with Slack, Gmail, Trello, and Notion</h1>
+            </div>
+            <div class="border-2 max-md:w-72 max-sm:w-60 max-sm:h-60 max-md:h-72 border-gray-700 max-lg:w-56 max-lg:h-56 rounded-4xl flex items-center flex-col w-90 max-xl:h-72 max-xl:w-72
+h-90  justify-center">
+                <img src="img/themes.png" class="w-1/5" alt="">
+                <h1 class="text-4xl m-5 max-md:text-3xl max-sm:text-2xl max-xl:text-3xl  max-lg:text-2xl font-bold text-center text-sky-400">Dark Mode + Custom Themes</h1>
+            </div>
+        </div>
+        <button class="bg-lime-300 mt-16  cursor-pointer  w-80 transition duration-300 hover:scale-110 font-semibold p-2 pl-4 pr-4 rounded-full "><a href="pricing.html">Join Us - It's Free</a></button>
+
+    </div>
+    <div class="p-32 flex flex-col items-center border-b-4 border-b-gray-700"data-aos="fade-down"
+     data-aos-duration="2000">
+        <h1 class="text-5xl/snug space font-bold drop-shadow-2xl text-center">How It Works?</h1>
+        <div class="flex max-md:flex-col justify-between mt-32 gap-20 max-xl:gap-10">
+            <div class="border-2 rounded-4xl  max-sm:w-60 max-sm:h-60 max-md:w-76 max-md:h-76 max-xl:w-76 max-xl:h-76 max-lg:w-52 max-lg:h-52 w-92 h-92 border-gray-700 flex items-center h-90  justify-center flex-col">
+                <img src="img/add.png" class="w-1/4" alt="">
+                <h1 class="text-4xl font-bold text-sky-400 m-5 max-xl:text-3xl ">Step 1</h1>
+                <p class=" font-semibold text-center max-lg:text-sm">Sign up and set up your projects</p>
+            </div>
+            <div class="border-2 rounded-4xl max-sm:w-60 max-sm:h-60 max-md:w-76 max-md:h-76 max-xl:w-76 max-xl:h-76 max-lg:w-52 max-lg:h-52 w-92 h-92 border-gray-700 flex items-center h-90  justify-center flex-col">
+                <img src="img/chat-bot (1).png" class="w-1/4" alt="">
+                <h1 class="text-4xl font-bold text-sky-400 m-5 max-xl:text-3xl ">Step 2</h1>
+                <p class=" font-semibold text-center max-lg:text-sm">Use the smart assistant to prioritize tasks, set timers, and track your work</p>
+        
+            </div>
+            <div class="border-2 rounded-4xl max-sm:w-60 max-sm:h-60 max-md:w-76 max-md:h-76 max-xl:w-76 max-xl:h-76 max-lg:w-52 max-lg:h-52 w-92 h-92 border-gray-700 flex items-center h-90  justify-center flex-col">
+                <img src="img/bar-chart.png" class="w-1/4" alt="">
+                <h1 class="text-4xl font-bold text-sky-400 m-5 max-xl:text-3xl ">Step 3</h1>
+                <p class=" font-semibold text-center max-lg:text-sm">View reports, share progress, and stay accountable.</p>
+        
+            </div>
+        </div>
+        <button class="bg-lime-300  mt-16 cursor-pointer w-80 transition duration-300 hover:scale-110 font-semibold p-2 pl-4 pr-4 rounded-full "><a href="pricing.html" >Join Us - It's Free</a></button>
+
+    </div>
+    <div class="p-32 pl-80 pr-80 max-2xl:px-72 max-xl:px-52 max-lg:px-32 max-sm:px-16"data-aos="fade-down"
+     data-aos-duration="2000">
+        <h1 class="text-5xl/snug space font-bold  drop-shadow-2xl text-center" id="faq">FAQ</h1>
+        <div class="mt-32">
+            <div class="border-b-2 border-b-gray-700 mb-4">
+                <div class="flex justify-between items-center question cursor-pointer">
+                    <h1 class="font-bold text-2xl  text-sky-400">Is TaskTide free to use?</h1>
+                    <img src="img/down-arrow.png" class="cursor-pointer" alt="">
+                </div>
+                <p class="mb-4 paragraph">Yes! Our Free plan includes all core features for solo users. Upgrade only if you need advanced analytics or team features.</p>
+            </div>
+            <div class="border-b-2 border-b-gray-700 mb-4">
+                <div class="flex justify-between items-center question cursor-pointer">
+                    <h1 class="font-bold text-2xl  text-sky-400"> What makes TaskTide different from Trello or Notion?</h1>
+                    <img src="img/down-arrow.png" class="cursor-pointer" alt="">
+                </div>
+                <p class="mb-4 paragraph">TaskTide blends task management with AI-powered automation and time tracking — no juggling multiple tools.</p>
+            </div>
+            <div class="border-b-2 border-b-gray-700 mb-4">
+                <div class="flex justify-between items-center question cursor-pointer">
+                    <h1 class="font-bold text-2xl  text-sky-400"> Do you offer team accounts?</h1>
+                    <img src="img/down-arrow.png" class="cursor-pointer" alt="">
+                </div>
+                <p class="mb-4 paragraph">Yes, our Team plan allows up to 10 members with advanced collaboration features</p>
+            </div>
+            <div class="border-b-2 border-b-gray-700 mb-4">
+                <div class="flex justify-between items-center question cursor-pointer">
+                    <h1 class="font-bold text-2xl  text-sky-400">Can I cancel anytime?</h1>
+                    <img src="img/down-arrow.png" class="cursor-pointer" alt="">
+                </div>
+                <p class="mb-4 paragraph">Absolutely. No contracts, no cancellation fees</p>
+            </div>
+            <div class="border-b-2 border-b-gray-700">
+                <div class="flex justify-between transition duration-300 items-center question cursor-pointer">
+                    <h1 class="font-bold text-2xl  text-sky-400 transition duration-300">Is my data secure?</h1>
+                    <img src="img/down-arrow.png" class="cursor-pointer transition duration-300" alt="">
+                </div>
+                <p class="mb-4 paragraph transition duration-300">We use 256-bit encryption and follow GDPR compliance to ensure your data is safe.</p>
+            </div>
+
+
+        </div>
+        <div class="relative">
+            <img src="img/f95b1dee-b08e-4d53-a3c6-4ebbf24f29cf-Photoroom.png" class="w-36 absolute bottom-100 max-sm:hidden  z-10" alt="">
+            <img src="img/f95b1dee-b08e-4d53-a3c6-4ebbf24f29cf-Photoroom.png" class="w-36 max-xl:hidden absolute bottom-100 left-170 rotate-80 z-10 " alt="">
+            <img src="img/75cdb0a4-9800-4543-8922-53a2bdc2713a-Photoroom.png" class="w-36  max-2xl:hidden absolute bottom-70 right-240 -rotate-12 z-10 " alt="">
+            <img src="img/75cdb0a4-9800-4543-8922-53a2bdc2713a-Photoroom.png" class="w-36 max-2xl:hidden  absolute bottom-70 left-220 z-10 rotate-12 " alt="">
+        </div>
+    </div>
+    <footer class="p-12 border-t-4 bg-gray-200 gap-10 border-t-gray-700 flex items-center flex-col">
+        <a href="home.html" class="drop-shadow-2xl text-4xl font-bold bg-gradient-to-r from-sky-400 to-sky-950 text-transparent bg-clip-text">TaskTide</a>
+
+        <div class="flex flex-row gap-10 justify-center">
+                <a href="home.html" class="drop-shadow-2xl hover:text-sky-400 transition duration-300">Home</a>
+                <a href="#Features" class="drop-shadow-2xl hover:text-sky-400 transition duration-300">Features</a>
+                <a href="pricing.html" class="drop-shadow-2xl hover:text-sky-400 transition duration-300">Pricing</a>
+                <a href="#faq" class="drop-shadow-2xl hover:text-sky-400 transition duration-300">FAQ</a>
+        </div>
+        <button class="bg-lime-300 transition duration-300 hover:scale-110 font-semibold p-2 pl-4 pr-4 rounded-full cursor-pointer"><a href="pricing.html">Join Us - It's Free</a></button>
+
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="script.js"></script>
+</body> 
+</html>
